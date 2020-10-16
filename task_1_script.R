@@ -1,3 +1,8 @@
+#### Task 1 - Spark Foundation Grip ##########
+
+###Predict the percentage of marks of an student based on the number of study hours ####
+###This is a simple linear regression task as it involves just 2 variables.##
+
 
 getwd()
 setwd("D://internships//Spark")
@@ -56,4 +61,8 @@ View(actuals_predicted)
 predicted_ques<-predict(model1,data.frame(Hours=9.25))
 
 Ans : 94.13 
+
+
+##### Task 1- completed ###########
+
 
